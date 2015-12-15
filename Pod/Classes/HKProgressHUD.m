@@ -49,9 +49,21 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 
 @implementation HKProgressHUD
 
++ (NSBundle *)bundle
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"HKProgressHUD" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:path];
+    return bundle;
+}
+
+- (NSBundle *)bundle
+{
+    return [[self class] bundle];
+}
+
 + (HKProgressHUD *)setupWithView:(UIView *)view
 {
-    HKProgressHUD *progressHUD = [[NSBundle bundleForClass:self] loadNibNamed:@"HKProgressHUD" owner:nil options:nil][0];
+    HKProgressHUD *progressHUD = [[self bundle] loadNibNamed:@"HKProgressHUD" owner:nil options:nil][0];
     [progressHUD setupWithView:view];
     return progressHUD;
 }
@@ -239,7 +251,7 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 {
     self.mode = HKProgressHUDModeImage;
     self.message = text;
-    self.customImage = [UIImage imageNamed:@"icn_cross" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
+    self.customImage = [UIImage imageNamed:@"icn_cross" inBundle:[self bundle] compatibleWithTraitCollection:nil];
     [self updateAndShow];
 }
 
@@ -248,7 +260,7 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 {
     self.mode = HKProgressHUDModeImage;
     self.message = text;
-    self.customImage = [UIImage imageNamed:@"icn_check" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
+    self.customImage = [UIImage imageNamed:@"icn_check" inBundle:[self bundle] compatibleWithTraitCollection:nil];
     [self updateAndShow];
 }
 /** 显示提示消息 iocn 和消息内容，直到主动取消 */
@@ -256,7 +268,7 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 {
     self.mode = HKProgressHUDModeImage;
     self.message = text;
-    self.customImage = [UIImage imageNamed:@"icn_info" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
+    self.customImage = [UIImage imageNamed:@"icn_info" inBundle:[self bundle] compatibleWithTraitCollection:nil];
     [self updateAndShow];
 }
 /** 显示警告消息 iocn 和消息内容，直到主动取消 */
@@ -264,7 +276,7 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 {
     self.mode = HKProgressHUDModeImage;
     self.message = text;
-    self.customImage = [UIImage imageNamed:@"icn_alert" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
+    self.customImage = [UIImage imageNamed:@"icn_alert" inBundle:[self bundle] compatibleWithTraitCollection:nil];
     [self updateAndShow];
 }
 /** 显示自定义的 iocn 和消息内容，直到主动取消 */
