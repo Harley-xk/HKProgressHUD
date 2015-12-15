@@ -159,7 +159,9 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
             break;
     }
     
-    [self show];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self show];
+    });
 }
 
 - (void)reset
