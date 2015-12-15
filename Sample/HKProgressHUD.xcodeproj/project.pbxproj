@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C328E9821C1FF4C000DDDC32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9811C1FF4C000DDDC32 /* main.m */; };
+		C328E9851C1FF4C000DDDC32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9841C1FF4C000DDDC32 /* AppDelegate.m */; };
+		C328E9881C1FF4C000DDDC32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9871C1FF4C000DDDC32 /* ViewController.m */; };
+		C328E98B1C1FF4C000DDDC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C328E9891C1FF4C000DDDC32 /* Main.storyboard */; };
+		C328E98D1C1FF4C000DDDC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C328E98C1C1FF4C000DDDC32 /* Assets.xcassets */; };
+		C328E9901C1FF4C000DDDC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C328E98E1C1FF4C000DDDC32 /* LaunchScreen.storyboard */; };
+		C328E99A1C1FF53A00DDDC32 /* HKProgressHUD.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C328E9991C1FF53A00DDDC32 /* HKProgressHUD.podspec */; };
+		C328E9A11C1FF58700DDDC32 /* HKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9A01C1FF58700DDDC32 /* HKProgressHUD.m */; };
+		C328E9AC1C1FF7AB00DDDC32 /* UIView+HKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9A91C1FF7AB00DDDC32 /* UIView+HKProgressHUD.m */; };
+		C328E9AD1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9AB1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.m */; };
+		C3DCAD961C1FFB1200D509B0 /* HKProgressHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DCAD951C1FFB1200D509B0 /* HKProgressHUD.xib */; };
+		C3DCAD981C20099000D509B0 /* HKProgressHUD.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DCAD971C20099000D509B0 /* HKProgressHUD.xcassets */; };
+		C3DCAD9B1C20203400D509B0 /* HKRoundProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DCAD9A1C20203400D509B0 /* HKRoundProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C328E97D1C1FF4C000DDDC32 /* HKProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C328E9811C1FF4C000DDDC32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C328E9831C1FF4C000DDDC32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C328E9841C1FF4C000DDDC32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C328E9861C1FF4C000DDDC32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C328E9871C1FF4C000DDDC32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C328E98A1C1FF4C000DDDC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C328E98C1C1FF4C000DDDC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C328E98F1C1FF4C000DDDC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C328E9911C1FF4C000DDDC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C328E9991C1FF53A00DDDC32 /* HKProgressHUD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HKProgressHUD.podspec; path = ../HKProgressHUD.podspec; sourceTree = "<group>"; };
+		C328E99F1C1FF58700DDDC32 /* HKProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKProgressHUD.h; sourceTree = "<group>"; };
+		C328E9A01C1FF58700DDDC32 /* HKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKProgressHUD.m; sourceTree = "<group>"; };
+		C328E9A81C1FF7AB00DDDC32 /* UIView+HKProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HKProgressHUD.h"; sourceTree = "<group>"; };
+		C328E9A91C1FF7AB00DDDC32 /* UIView+HKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HKProgressHUD.m"; sourceTree = "<group>"; };
+		C328E9AA1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HKProgressHUD.h"; sourceTree = "<group>"; };
+		C328E9AB1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HKProgressHUD.m"; sourceTree = "<group>"; };
+		C3DCAD951C1FFB1200D509B0 /* HKProgressHUD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKProgressHUD.xib; sourceTree = "<group>"; };
+		C3DCAD971C20099000D509B0 /* HKProgressHUD.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HKProgressHUD.xcassets; sourceTree = "<group>"; };
+		C3DCAD991C20203400D509B0 /* HKRoundProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKRoundProgressView.h; sourceTree = "<group>"; };
+		C3DCAD9A1C20203400D509B0 /* HKRoundProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKRoundProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C328E97A1C1FF4C000DDDC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50FE2E3FE8D445FD873057DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C328E9741C1FF4C000DDDC32 = {
+			isa = PBXGroup;
+			children = (
+				C328E9991C1FF53A00DDDC32 /* HKProgressHUD.podspec */,
+				C328E99C1C1FF56C00DDDC32 /* Pod */,
+				C328E97F1C1FF4C000DDDC32 /* HKProgressHUDSample */,
+				C328E97E1C1FF4C000DDDC32 /* Products */,
+				50FE2E3FE8D445FD873057DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C328E97E1C1FF4C000DDDC32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C328E97D1C1FF4C000DDDC32 /* HKProgressHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C328E97F1C1FF4C000DDDC32 /* HKProgressHUDSample */ = {
+			isa = PBXGroup;
+			children = (
+				C328E9831C1FF4C000DDDC32 /* AppDelegate.h */,
+				C328E9841C1FF4C000DDDC32 /* AppDelegate.m */,
+				C328E9861C1FF4C000DDDC32 /* ViewController.h */,
+				C328E9871C1FF4C000DDDC32 /* ViewController.m */,
+				C328E9891C1FF4C000DDDC32 /* Main.storyboard */,
+				C328E98C1C1FF4C000DDDC32 /* Assets.xcassets */,
+				C328E98E1C1FF4C000DDDC32 /* LaunchScreen.storyboard */,
+				C328E9911C1FF4C000DDDC32 /* Info.plist */,
+				C328E9801C1FF4C000DDDC32 /* Supporting Files */,
+			);
+			name = HKProgressHUDSample;
+			path = HKProgressHUD;
+			sourceTree = "<group>";
+		};
+		C328E9801C1FF4C000DDDC32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C328E9811C1FF4C000DDDC32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C328E99C1C1FF56C00DDDC32 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C328E99D1C1FF56C00DDDC32 /* Assets */,
+				C328E99E1C1FF56C00DDDC32 /* Classes */,
+			);
+			name = Pod;
+			path = ../Pod;
+			sourceTree = "<group>";
+		};
+		C328E99D1C1FF56C00DDDC32 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C3DCAD951C1FFB1200D509B0 /* HKProgressHUD.xib */,
+				C3DCAD971C20099000D509B0 /* HKProgressHUD.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C328E99E1C1FF56C00DDDC32 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C328E99F1C1FF58700DDDC32 /* HKProgressHUD.h */,
+				C328E9A01C1FF58700DDDC32 /* HKProgressHUD.m */,
+				C3DCAD991C20203400D509B0 /* HKRoundProgressView.h */,
+				C3DCAD9A1C20203400D509B0 /* HKRoundProgressView.m */,
+				C328E9A81C1FF7AB00DDDC32 /* UIView+HKProgressHUD.h */,
+				C328E9A91C1FF7AB00DDDC32 /* UIView+HKProgressHUD.m */,
+				C328E9AA1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.h */,
+				C328E9AB1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C328E97C1C1FF4C000DDDC32 /* HKProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C328E9941C1FF4C000DDDC32 /* Build configuration list for PBXNativeTarget "HKProgressHUD" */;
+			buildPhases = (
+				C328E9791C1FF4C000DDDC32 /* Sources */,
+				C328E97A1C1FF4C000DDDC32 /* Frameworks */,
+				C328E97B1C1FF4C000DDDC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HKProgressHUD;
+			productName = HKProgressHUD;
+			productReference = C328E97D1C1FF4C000DDDC32 /* HKProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C328E9751C1FF4C000DDDC32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Harley.xk;
+				TargetAttributes = {
+					C328E97C1C1FF4C000DDDC32 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C328E9781C1FF4C000DDDC32 /* Build configuration list for PBXProject "HKProgressHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C328E9741C1FF4C000DDDC32;
+			productRefGroup = C328E97E1C1FF4C000DDDC32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C328E97C1C1FF4C000DDDC32 /* HKProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C328E97B1C1FF4C000DDDC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328E9901C1FF4C000DDDC32 /* LaunchScreen.storyboard in Resources */,
+				C3DCAD981C20099000D509B0 /* HKProgressHUD.xcassets in Resources */,
+				C328E98D1C1FF4C000DDDC32 /* Assets.xcassets in Resources */,
+				C328E99A1C1FF53A00DDDC32 /* HKProgressHUD.podspec in Resources */,
+				C328E98B1C1FF4C000DDDC32 /* Main.storyboard in Resources */,
+				C3DCAD961C1FFB1200D509B0 /* HKProgressHUD.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C328E9791C1FF4C000DDDC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328E9881C1FF4C000DDDC32 /* ViewController.m in Sources */,
+				C328E9AC1C1FF7AB00DDDC32 /* UIView+HKProgressHUD.m in Sources */,
+				C328E9AD1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.m in Sources */,
+				C328E9851C1FF4C000DDDC32 /* AppDelegate.m in Sources */,
+				C328E9821C1FF4C000DDDC32 /* main.m in Sources */,
+				C328E9A11C1FF58700DDDC32 /* HKProgressHUD.m in Sources */,
+				C3DCAD9B1C20203400D509B0 /* HKRoundProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C328E9891C1FF4C000DDDC32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C328E98A1C1FF4C000DDDC32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C328E98E1C1FF4C000DDDC32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C328E98F1C1FF4C000DDDC32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C328E9921C1FF4C000DDDC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C328E9931C1FF4C000DDDC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C328E9951C1FF4C000DDDC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HKProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harley.HKProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C328E9961C1FF4C000DDDC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HKProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harley.HKProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C328E9781C1FF4C000DDDC32 /* Build configuration list for PBXProject "HKProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328E9921C1FF4C000DDDC32 /* Debug */,
+				C328E9931C1FF4C000DDDC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C328E9941C1FF4C000DDDC32 /* Build configuration list for PBXNativeTarget "HKProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328E9951C1FF4C000DDDC32 /* Debug */,
+				C328E9961C1FF4C000DDDC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C328E9751C1FF4C000DDDC32 /* Project object */;
+}
