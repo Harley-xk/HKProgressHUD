@@ -58,7 +58,7 @@ CGFloat progress = 0.1;
 [self hk_autoShowAlertMessage:@"Warning, something will be wrong!"];
 
 // show message with success icon
-[self hk_autoShowAlertMessage:@"Done, have fun!"];
+[self hk_autoShowSucceedMessage:@"Done, have fun!"];
 
 // show message with failure icon
 [self hk_autoShowErrorMessage:@"Oh no! Something is wrong!"];
