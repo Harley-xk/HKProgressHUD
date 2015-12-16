@@ -31,7 +31,7 @@ pod 'HKProgressHUD', :git => 'https://github.com/Harley-xk/HKProgressHUD.git'
 [self hk_hideProgressHUD];
 ```
 
-* show a round progress view whit message, the round progress view here is a circle drawing with the percentage of the progress.
+* show a round progress view with message, the round progress view here is a circle drawing with the percentage of the progress.
 
 ```objc
 // when the progress changed
@@ -86,3 +86,4 @@ UIView *view = ...
 ##### Use directly with HKProgressHUD
 HKProgressHUD is packaged with UIView and UIViewController, so it can be used simply. It is not recommended to use it directly. If you try to do so, go deep into the API comments.
 
+### See the sample project for more infomations!
