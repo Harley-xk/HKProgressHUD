@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'HKProgressHUD' => ['Pod/Assets/*.imageset','Pod/Assets/*.xib']
+    'HKProgressHUD' => ['Pod/Assets/*.xcassets','Pod/Assets/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
