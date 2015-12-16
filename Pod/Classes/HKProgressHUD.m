@@ -53,6 +53,9 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 {
     NSString *path = [[NSBundle mainBundle] pathForResource:@"HKProgressHUD" ofType:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:path];
+    if (bundle == nil) {
+        bundle = [NSBundle mainBundle];
+    }
     return bundle;
 }
 
@@ -221,6 +224,12 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
     });
 }
 
+- (UIImage *)templateIconWithName:(NSString *)imageName
+{
+    UIImage *image = [UIImage imageNamed:imageName inBundle:[self bundle] compatibleWithTraitCollection:nil];
+    return [image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+}
+
 #pragma mark - Show & Hide Progress
 /** 显示 UIActivityIndicatorView 与文字信息，直到主动取消 */
 - (void)showActivityWithMessage:(NSString *)message
@@ -253,7 +262,7 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 {
     self.mode = HKProgressHUDModeImage;
     self.message = text;
-    self.customImage = [UIImage imageNamed:@"icn_cross" inBundle:[self bundle] compatibleWithTraitCollection:nil];
+    self.customImage = [self templateIconWithName:@"icn_cross"];;
     [self updateAndShow];
 }
 
@@ -262,7 +271,7 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 {
     self.mode = HKProgressHUDModeImage;
     self.message = text;
-    self.customImage = [UIImage imageNamed:@"icn_check" inBundle:[self bundle] compatibleWithTraitCollection:nil];
+    self.customImage = [self templateIconWithName:@"icn_check"];;
     [self updateAndShow];
 }
 /** 显示提示消息 iocn 和消息内容，直到主动取消 */
@@ -270,7 +279,7 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 {
     self.mode = HKProgressHUDModeImage;
     self.message = text;
-    self.customImage = [UIImage imageNamed:@"icn_info" inBundle:[self bundle] compatibleWithTraitCollection:nil];
+    self.customImage = [self templateIconWithName:@"icn_info"];;
     [self updateAndShow];
 }
 /** 显示警告消息 iocn 和消息内容，直到主动取消 */
@@ -278,7 +287,7 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 {
     self.mode = HKProgressHUDModeImage;
     self.message = text;
-    self.customImage = [UIImage imageNamed:@"icn_alert" inBundle:[self bundle] compatibleWithTraitCollection:nil];
+    self.customImage = [self templateIconWithName:@"icn_alert"];;
     [self updateAndShow];
 }
 /** 显示自定义的 iocn 和消息内容，直到主动取消 */

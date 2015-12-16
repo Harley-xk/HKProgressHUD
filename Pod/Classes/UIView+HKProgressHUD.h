@@ -15,7 +15,7 @@
  *  UIView 默认不会创建 HKProgressHUD
  *  第一次使用前需要调用该方法来初始化一个 HKProgressHUD
  */
--(void)setupProgressHUD;
+-(void)hk_setupProgressHUD;
 
 /**
  *  获取绑定到当前 view 的 HKProgressHUD，如果没有初始化则返回 nil

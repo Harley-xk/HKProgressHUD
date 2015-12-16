@@ -21,7 +21,7 @@
     objc_setAssociatedObject(self, @selector(hk_progressHUD), hk_progressHUD, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
--(void)setupProgressHUD
+- (void)hk_setupProgressHUD
 {
     if (self.hk_progressHUD) {
         return;

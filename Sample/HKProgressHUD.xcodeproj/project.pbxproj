@@ -17,8 +17,15 @@
 		C328E9A11C1FF58700DDDC32 /* HKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9A01C1FF58700DDDC32 /* HKProgressHUD.m */; };
 		C328E9AC1C1FF7AB00DDDC32 /* UIView+HKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9A91C1FF7AB00DDDC32 /* UIView+HKProgressHUD.m */; };
 		C328E9AD1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9AB1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.m */; };
+		C3407E311C2115CF00335D3C /* icn_alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E291C2115CF00335D3C /* icn_alert@2x.png */; };
+		C3407E321C2115CF00335D3C /* icn_alert@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2A1C2115CF00335D3C /* icn_alert@3x.png */; };
+		C3407E331C2115CF00335D3C /* icn_check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2B1C2115CF00335D3C /* icn_check@2x.png */; };
+		C3407E341C2115CF00335D3C /* icn_check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2C1C2115CF00335D3C /* icn_check@3x.png */; };
+		C3407E351C2115CF00335D3C /* icn_cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2D1C2115CF00335D3C /* icn_cross@2x.png */; };
+		C3407E361C2115CF00335D3C /* icn_cross@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2E1C2115CF00335D3C /* icn_cross@3x.png */; };
+		C3407E371C2115CF00335D3C /* icn_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2F1C2115CF00335D3C /* icn_info@2x.png */; };
+		C3407E381C2115CF00335D3C /* icn_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E301C2115CF00335D3C /* icn_info@3x.png */; };
 		C3DCAD961C1FFB1200D509B0 /* HKProgressHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DCAD951C1FFB1200D509B0 /* HKProgressHUD.xib */; };
-		C3DCAD981C20099000D509B0 /* HKProgressHUD.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DCAD971C20099000D509B0 /* HKProgressHUD.xcassets */; };
 		C3DCAD9B1C20203400D509B0 /* HKRoundProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DCAD9A1C20203400D509B0 /* HKRoundProgressView.m */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +47,15 @@
 		C328E9A91C1FF7AB00DDDC32 /* UIView+HKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HKProgressHUD.m"; sourceTree = "<group>"; };
 		C328E9AA1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HKProgressHUD.h"; sourceTree = "<group>"; };
 		C328E9AB1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HKProgressHUD.m"; sourceTree = "<group>"; };
+		C3407E291C2115CF00335D3C /* icn_alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_alert@2x.png"; sourceTree = "<group>"; };
+		C3407E2A1C2115CF00335D3C /* icn_alert@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_alert@3x.png"; sourceTree = "<group>"; };
+		C3407E2B1C2115CF00335D3C /* icn_check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_check@2x.png"; sourceTree = "<group>"; };
+		C3407E2C1C2115CF00335D3C /* icn_check@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_check@3x.png"; sourceTree = "<group>"; };
+		C3407E2D1C2115CF00335D3C /* icn_cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_cross@2x.png"; sourceTree = "<group>"; };
+		C3407E2E1C2115CF00335D3C /* icn_cross@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_cross@3x.png"; sourceTree = "<group>"; };
+		C3407E2F1C2115CF00335D3C /* icn_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_info@2x.png"; sourceTree = "<group>"; };
+		C3407E301C2115CF00335D3C /* icn_info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_info@3x.png"; sourceTree = "<group>"; };
 		C3DCAD951C1FFB1200D509B0 /* HKProgressHUD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKProgressHUD.xib; sourceTree = "<group>"; };
-		C3DCAD971C20099000D509B0 /* HKProgressHUD.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HKProgressHUD.xcassets; sourceTree = "<group>"; };
 		C3DCAD991C20203400D509B0 /* HKRoundProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKRoundProgressView.h; sourceTree = "<group>"; };
 		C3DCAD9A1C20203400D509B0 /* HKRoundProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKRoundProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,7 +136,14 @@
 			isa = PBXGroup;
 			children = (
 				C3DCAD951C1FFB1200D509B0 /* HKProgressHUD.xib */,
-				C3DCAD971C20099000D509B0 /* HKProgressHUD.xcassets */,
+				C3407E291C2115CF00335D3C /* icn_alert@2x.png */,
+				C3407E2A1C2115CF00335D3C /* icn_alert@3x.png */,
+				C3407E2B1C2115CF00335D3C /* icn_check@2x.png */,
+				C3407E2C1C2115CF00335D3C /* icn_check@3x.png */,
+				C3407E2D1C2115CF00335D3C /* icn_cross@2x.png */,
+				C3407E2E1C2115CF00335D3C /* icn_cross@3x.png */,
+				C3407E2F1C2115CF00335D3C /* icn_info@2x.png */,
+				C3407E301C2115CF00335D3C /* icn_info@3x.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -200,10 +221,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C328E9901C1FF4C000DDDC32 /* LaunchScreen.storyboard in Resources */,
-				C3DCAD981C20099000D509B0 /* HKProgressHUD.xcassets in Resources */,
 				C328E98D1C1FF4C000DDDC32 /* Assets.xcassets in Resources */,
+				C3407E351C2115CF00335D3C /* icn_cross@2x.png in Resources */,
 				C328E99A1C1FF53A00DDDC32 /* HKProgressHUD.podspec in Resources */,
+				C3407E361C2115CF00335D3C /* icn_cross@3x.png in Resources */,
+				C3407E371C2115CF00335D3C /* icn_info@2x.png in Resources */,
+				C3407E381C2115CF00335D3C /* icn_info@3x.png in Resources */,
 				C328E98B1C1FF4C000DDDC32 /* Main.storyboard in Resources */,
+				C3407E331C2115CF00335D3C /* icn_check@2x.png in Resources */,
+				C3407E311C2115CF00335D3C /* icn_alert@2x.png in Resources */,
+				C3407E341C2115CF00335D3C /* icn_check@3x.png in Resources */,
+				C3407E321C2115CF00335D3C /* icn_alert@3x.png in Resources */,
 				C3DCAD961C1FFB1200D509B0 /* HKProgressHUD.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

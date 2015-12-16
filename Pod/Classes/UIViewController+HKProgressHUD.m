@@ -15,7 +15,7 @@
 {
     HKProgressHUD *hud = objc_getAssociatedObject(self, @selector(hk_progressHUD));
     if (hud == nil) {
-        hud = [self setupProgressHUD];
+        hud = [self hk_setupProgressHUD];
     }
     return hud;
 }
@@ -25,7 +25,7 @@
     objc_setAssociatedObject(self, @selector(hk_progressHUD), hk_progressHUD, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
--(HKProgressHUD *)setupProgressHUD
+- (HKProgressHUD *)hk_setupProgressHUD
 {
     UIView *rootView = self.view;
     if ([self.view isKindOfClass:[UIScrollView class]] && self.view.superview != nil) {
