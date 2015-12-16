@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
@@ -19,19 +20,19 @@
                     <rect key="frame" x="245" y="250" width="110" height="100"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nM6-53-6h0">
-                            <rect key="frame" x="15" y="63" width="80" height="21"/>
+                            <rect key="frame" x="15" y="64" width="80" height="20"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="21" id="P8i-di-LSD"/>
+                                <constraint firstAttribute="height" constant="20" id="P8i-di-LSD"/>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="hwv-o0-KTG"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="p3U-Bu-mgT">
                             <rect key="frame" x="37" y="17" width="37" height="37"/>
                         </activityIndicatorView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_cross" translatesAutoresizingMaskIntoConstraints="NO" id="zwf-ij-mVT">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_cross.png" translatesAutoresizingMaskIntoConstraints="NO" id="zwf-ij-mVT">
                             <rect key="frame" x="35" y="16" width="40" height="40"/>
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
@@ -49,7 +50,7 @@
                         <constraint firstAttribute="trailing" secondItem="nM6-53-6h0" secondAttribute="trailing" constant="15" id="B8E-2Q-p9j"/>
                         <constraint firstAttribute="bottom" secondItem="nM6-53-6h0" secondAttribute="bottom" constant="16" id="GJl-x9-eBr"/>
                         <constraint firstItem="3pM-YO-2GT" firstAttribute="trailing" secondItem="zwf-ij-mVT" secondAttribute="trailing" id="JVI-Sc-hgQ"/>
-                        <constraint firstItem="nM6-53-6h0" firstAttribute="top" secondItem="zwf-ij-mVT" secondAttribute="bottom" constant="7" id="JxJ-Vn-1RO"/>
+                        <constraint firstItem="nM6-53-6h0" firstAttribute="top" secondItem="zwf-ij-mVT" secondAttribute="bottom" constant="8" id="JxJ-Vn-1RO"/>
                         <constraint firstItem="p3U-Bu-mgT" firstAttribute="centerX" secondItem="zwf-ij-mVT" secondAttribute="centerX" id="LU4-xU-6qA"/>
                         <constraint firstItem="3pM-YO-2GT" firstAttribute="leading" secondItem="zwf-ij-mVT" secondAttribute="leading" id="Nwq-d3-GPf"/>
                         <constraint firstItem="zwf-ij-mVT" firstAttribute="centerX" secondItem="Qfh-Er-0Ca" secondAttribute="centerX" id="SHw-H5-PfA"/>
@@ -65,9 +66,11 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="5Y3-Sd-I0i" secondAttribute="trailing" id="7ec-rH-MtU"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Qfh-Er-0Ca" secondAttribute="trailing" constant="20" id="876-7S-zrA"/>
                 <constraint firstItem="5Y3-Sd-I0i" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Vzf-BO-5XE"/>
                 <constraint firstItem="5Y3-Sd-I0i" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="j3A-ef-1jv"/>
                 <constraint firstAttribute="bottom" secondItem="5Y3-Sd-I0i" secondAttribute="bottom" id="n7s-Pa-fEJ"/>
+                <constraint firstItem="Qfh-Er-0Ca" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="nBG-Yz-jrv"/>
                 <constraint firstItem="Qfh-Er-0Ca" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ub3-sZ-pke"/>
                 <constraint firstItem="Qfh-Er-0Ca" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ujX-zA-v0B"/>
             </constraints>
@@ -89,6 +92,6 @@
         </view>
     </objects>
     <resources>
-        <image name="icn_cross" width="42" height="42"/>
+        <image name="icn_cross.png" width="42" height="42"/>
     </resources>
 </document>

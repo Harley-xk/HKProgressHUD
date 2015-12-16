@@ -115,10 +115,10 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
     self.textLabel.textColor = self.tintColor;
     
     if (self.message.length > 0) {
-        self.spaceBetweenIconAndLabel.constant = 7;
+        self.spaceBetweenIconAndLabel.constant = 8;
         self.textLabelMinWidth.constant = 70;
         self.hudHeight.constant = 100;
-        self.textLabelHeight.constant = 21;
+        self.textLabelHeight.constant = 20;
     }else {
         self.spaceBetweenIconAndLabel.constant = 0;
         self.textLabelMinWidth.constant = 42;
@@ -155,7 +155,7 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
             self.iconView.hidden = YES;
             self.progressView.hidden = YES;
             self.activityView.hidden = YES;
-            self.hudHeight.constant = 53;
+            self.hudHeight.constant = 52;
             break;
         }
         default:
