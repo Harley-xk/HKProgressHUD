@@ -6,8 +6,11 @@
 //  Copyright (c) 2015年 Harley.xk. All rights reserved.
 //
 
-#import "UIView+HKProgressHUD.h"
 #import <objc/runtime.h>
+
+#import "HKProgressHUD.h"
+#import "UIView+HKProgressHUD.h"
+
 
 @implementation UIView (HKProgressHUD)
 

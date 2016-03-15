@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HKProgressHUD.h"
+
+@class HKProgressHUD;
 
 @interface UIView (HKProgressHUD)
 
