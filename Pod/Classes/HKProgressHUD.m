@@ -51,8 +51,7 @@ typedef NS_ENUM(NSUInteger, HKProgressHUDMode)
 
 + (NSBundle *)bundle
 {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"HKProgressHUD" ofType:@"bundle"];
-    NSBundle *bundle = [NSBundle bundleWithPath:path];
+    NSBundle *bundle = [NSBundle bundleForClass:[HKProgressHUD class]];
     if (bundle == nil) {
         bundle = [NSBundle mainBundle];
     }

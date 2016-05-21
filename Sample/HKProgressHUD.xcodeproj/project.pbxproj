@@ -25,12 +25,55 @@
 		C3407E361C2115CF00335D3C /* icn_cross@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2E1C2115CF00335D3C /* icn_cross@3x.png */; };
 		C3407E371C2115CF00335D3C /* icn_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2F1C2115CF00335D3C /* icn_info@2x.png */; };
 		C3407E381C2115CF00335D3C /* icn_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E301C2115CF00335D3C /* icn_info@3x.png */; };
+		C37522901CF0A8C30037E747 /* HKProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37522891CF0A8C30037E747 /* HKProgressHUD.framework */; };
+		C37522921CF0A8C30037E747 /* HKProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C37522891CF0A8C30037E747 /* HKProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C37522961CF0A8D50037E747 /* HKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9A01C1FF58700DDDC32 /* HKProgressHUD.m */; };
+		C37522971CF0A8D50037E747 /* HKRoundProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DCAD9A1C20203400D509B0 /* HKRoundProgressView.m */; };
+		C37522981CF0A8D50037E747 /* UIView+HKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9A91C1FF7AB00DDDC32 /* UIView+HKProgressHUD.m */; };
+		C37522991CF0A8D50037E747 /* UIViewController+HKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C328E9AB1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.m */; };
+		C375229A1CF0A8E70037E747 /* HKProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C328E99F1C1FF58700DDDC32 /* HKProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C375229B1CF0A8E70037E747 /* HKRoundProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DCAD991C20203400D509B0 /* HKRoundProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C375229C1CF0A8E70037E747 /* UIView+HKProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C328E9A81C1FF7AB00DDDC32 /* UIView+HKProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C375229D1CF0A8E70037E747 /* UIViewController+HKProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C328E9AA1C1FF7AB00DDDC32 /* UIViewController+HKProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C375229E1CF0A8F30037E747 /* HKProgressHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DCAD951C1FFB1200D509B0 /* HKProgressHUD.xib */; };
+		C375229F1CF0A8F30037E747 /* icn_alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E291C2115CF00335D3C /* icn_alert@2x.png */; };
+		C37522A01CF0A8F30037E747 /* icn_alert@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2A1C2115CF00335D3C /* icn_alert@3x.png */; };
+		C37522A11CF0A8F30037E747 /* icn_check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2B1C2115CF00335D3C /* icn_check@2x.png */; };
+		C37522A21CF0A8F30037E747 /* icn_check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2C1C2115CF00335D3C /* icn_check@3x.png */; };
+		C37522A31CF0A8F30037E747 /* icn_cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2D1C2115CF00335D3C /* icn_cross@2x.png */; };
+		C37522A41CF0A8F30037E747 /* icn_cross@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2E1C2115CF00335D3C /* icn_cross@3x.png */; };
+		C37522A51CF0A8F30037E747 /* icn_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E2F1C2115CF00335D3C /* icn_info@2x.png */; };
+		C37522A61CF0A8F30037E747 /* icn_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3407E301C2115CF00335D3C /* icn_info@3x.png */; };
 		C3DCAD961C1FFB1200D509B0 /* HKProgressHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DCAD951C1FFB1200D509B0 /* HKProgressHUD.xib */; };
 		C3DCAD9B1C20203400D509B0 /* HKRoundProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DCAD9A1C20203400D509B0 /* HKRoundProgressView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C375228E1CF0A8C30037E747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C328E9751C1FF4C000DDDC32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37522881CF0A8C30037E747;
+			remoteInfo = HKProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C37522911CF0A8C30037E747 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C37522921CF0A8C30037E747 /* HKProgressHUD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		C328E97D1C1FF4C000DDDC32 /* HKProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C328E97D1C1FF4C000DDDC32 /* HKProgressHUD-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HKProgressHUD-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C328E9811C1FF4C000DDDC32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C328E9831C1FF4C000DDDC32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C328E9841C1FF4C000DDDC32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +98,8 @@
 		C3407E2E1C2115CF00335D3C /* icn_cross@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_cross@3x.png"; sourceTree = "<group>"; };
 		C3407E2F1C2115CF00335D3C /* icn_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_info@2x.png"; sourceTree = "<group>"; };
 		C3407E301C2115CF00335D3C /* icn_info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_info@3x.png"; sourceTree = "<group>"; };
+		C37522891CF0A8C30037E747 /* HKProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HKProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C375228D1CF0A8C30037E747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3DCAD951C1FFB1200D509B0 /* HKProgressHUD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKProgressHUD.xib; sourceTree = "<group>"; };
 		C3DCAD991C20203400D509B0 /* HKRoundProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKRoundProgressView.h; sourceTree = "<group>"; };
 		C3DCAD9A1C20203400D509B0 /* HKRoundProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKRoundProgressView.m; sourceTree = "<group>"; };
@@ -62,6 +107,14 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		C328E97A1C1FF4C000DDDC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37522901CF0A8C30037E747 /* HKProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37522851CF0A8C30037E747 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,6 +137,7 @@
 				C328E9991C1FF53A00DDDC32 /* HKProgressHUD.podspec */,
 				C328E99C1C1FF56C00DDDC32 /* Pod */,
 				C328E97F1C1FF4C000DDDC32 /* HKProgressHUDSample */,
+				C375228A1CF0A8C30037E747 /* HKProgressHUD */,
 				C328E97E1C1FF4C000DDDC32 /* Products */,
 				50FE2E3FE8D445FD873057DC /* Frameworks */,
 			);
@@ -92,7 +146,8 @@
 		C328E97E1C1FF4C000DDDC32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C328E97D1C1FF4C000DDDC32 /* HKProgressHUD.app */,
+				C328E97D1C1FF4C000DDDC32 /* HKProgressHUD-Sample.app */,
+				C37522891CF0A8C30037E747 /* HKProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,16 +218,58 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		C375228A1CF0A8C30037E747 /* HKProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C375228D1CF0A8C30037E747 /* Info.plist */,
+			);
+			path = HKProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C37522861CF0A8C30037E747 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C375229A1CF0A8E70037E747 /* HKProgressHUD.h in Headers */,
+				C375229B1CF0A8E70037E747 /* HKRoundProgressView.h in Headers */,
+				C375229C1CF0A8E70037E747 /* UIView+HKProgressHUD.h in Headers */,
+				C375229D1CF0A8E70037E747 /* UIViewController+HKProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		C328E97C1C1FF4C000DDDC32 /* HKProgressHUD */ = {
+		C328E97C1C1FF4C000DDDC32 /* HKProgressHUD-Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C328E9941C1FF4C000DDDC32 /* Build configuration list for PBXNativeTarget "HKProgressHUD" */;
+			buildConfigurationList = C328E9941C1FF4C000DDDC32 /* Build configuration list for PBXNativeTarget "HKProgressHUD-Sample" */;
 			buildPhases = (
 				C328E9791C1FF4C000DDDC32 /* Sources */,
 				C328E97A1C1FF4C000DDDC32 /* Frameworks */,
 				C328E97B1C1FF4C000DDDC32 /* Resources */,
+				C37522911CF0A8C30037E747 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C375228F1CF0A8C30037E747 /* PBXTargetDependency */,
+			);
+			name = "HKProgressHUD-Sample";
+			productName = HKProgressHUD;
+			productReference = C328E97D1C1FF4C000DDDC32 /* HKProgressHUD-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C37522881CF0A8C30037E747 /* HKProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37522951CF0A8C30037E747 /* Build configuration list for PBXNativeTarget "HKProgressHUD" */;
+			buildPhases = (
+				C37522841CF0A8C30037E747 /* Sources */,
+				C37522851CF0A8C30037E747 /* Frameworks */,
+				C37522861CF0A8C30037E747 /* Headers */,
+				C37522871CF0A8C30037E747 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -180,8 +277,8 @@
 			);
 			name = HKProgressHUD;
 			productName = HKProgressHUD;
-			productReference = C328E97D1C1FF4C000DDDC32 /* HKProgressHUD.app */;
-			productType = "com.apple.product-type.application";
+			productReference = C37522891CF0A8C30037E747 /* HKProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -194,6 +291,9 @@
 				TargetAttributes = {
 					C328E97C1C1FF4C000DDDC32 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					C37522881CF0A8C30037E747 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -210,7 +310,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C328E97C1C1FF4C000DDDC32 /* HKProgressHUD */,
+				C328E97C1C1FF4C000DDDC32 /* HKProgressHUD-Sample */,
+				C37522881CF0A8C30037E747 /* HKProgressHUD */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +337,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C37522871CF0A8C30037E747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C375229E1CF0A8F30037E747 /* HKProgressHUD.xib in Resources */,
+				C375229F1CF0A8F30037E747 /* icn_alert@2x.png in Resources */,
+				C37522A01CF0A8F30037E747 /* icn_alert@3x.png in Resources */,
+				C37522A11CF0A8F30037E747 /* icn_check@2x.png in Resources */,
+				C37522A21CF0A8F30037E747 /* icn_check@3x.png in Resources */,
+				C37522A31CF0A8F30037E747 /* icn_cross@2x.png in Resources */,
+				C37522A41CF0A8F30037E747 /* icn_cross@3x.png in Resources */,
+				C37522A51CF0A8F30037E747 /* icn_info@2x.png in Resources */,
+				C37522A61CF0A8F30037E747 /* icn_info@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -253,7 +370,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C37522841CF0A8C30037E747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37522961CF0A8D50037E747 /* HKProgressHUD.m in Sources */,
+				C37522971CF0A8D50037E747 /* HKRoundProgressView.m in Sources */,
+				C37522981CF0A8D50037E747 /* UIView+HKProgressHUD.m in Sources */,
+				C37522991CF0A8D50037E747 /* UIViewController+HKProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C375228F1CF0A8C30037E747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37522881CF0A8C30037E747 /* HKProgressHUD */;
+			targetProxy = C375228E1CF0A8C30037E747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C328E9891C1FF4C000DDDC32 /* Main.storyboard */ = {
@@ -379,6 +515,48 @@
 			};
 			name = Release;
 		};
+		C37522931CF0A8C30037E747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HKProgressHUD/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Harley-xk.HKProgressHUD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C37522941CF0A8C30037E747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HKProgressHUD/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Harley-xk.HKProgressHUD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -391,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C328E9941C1FF4C000DDDC32 /* Build configuration list for PBXNativeTarget "HKProgressHUD" */ = {
+		C328E9941C1FF4C000DDDC32 /* Build configuration list for PBXNativeTarget "HKProgressHUD-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C328E9951C1FF4C000DDDC32 /* Debug */,
@@ -399,6 +577,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C37522951CF0A8C30037E747 /* Build configuration list for PBXNativeTarget "HKProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37522931CF0A8C30037E747 /* Debug */,
+				C37522941CF0A8C30037E747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
